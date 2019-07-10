@@ -211,6 +211,9 @@ ro.incremental.enable=true
 # Keystore
 ro.hardware.keystore_desede=true
 
+# Media
+debug.stagefright.c2inputsurface=-1
+
 # OTG
 persist.sys.oem.otg_support=true
 
