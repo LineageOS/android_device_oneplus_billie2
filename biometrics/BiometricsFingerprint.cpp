@@ -22,6 +22,7 @@
 #include <hardware/fingerprint.h>
 #include "BiometricsFingerprint.h"
 
+#include <fstream>
 #include <inttypes.h>
 #include <unistd.h>
 
@@ -247,11 +248,26 @@ IBiometricsFingerprint* BiometricsFingerprint::getInstance() {
     return sInstance;
 }
 
+const char* BiometricsFingerprint::getModuleId() {
+    int sensor_version = -1;
+    std::ifstream file("/sys/devices/platform/soc/soc:fingerprint_detect/sensor_version");
+    file >> sensor_version;
+    ALOGI("fingerprint sensor version is: 0x%x (%d)", sensor_version, sensor_version);
+    switch (sensor_version) {
+        case 1312:
+            return "fingerprint.egis";
+        case 1313:
+            return "fingerprint.egis.et";
+        default:
+            return "Unknown";
+    }
+}
+
 fingerprint_device_t* BiometricsFingerprint::openHal() {
     int err;
     const hw_module_t *hw_mdl = nullptr;
     ALOGD("Opening fingerprint hal library...");
-    if (0 != (err = hw_get_module(FINGERPRINT_HARDWARE_MODULE_ID, &hw_mdl))) {
+    if (0 != (err = hw_get_module(getModuleId(), &hw_mdl))) {
         ALOGE("Can't open fingerprint HW Module, error: %d", err);
         return nullptr;
     }
