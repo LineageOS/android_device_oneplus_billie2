@@ -1,5 +1,5 @@
 ## All property files from this list, unless pinned and noted otherwise,
-## are from OnePlus Nord N100 (11.0.13.BE81AA). OTAs to extract from can be found here:
+## are from OnePlus Nord N100 (11.0.14.BE81AA). OTAs to extract from can be found here:
 ## https://www.oneplus.com/support/softwareupgrade/details?code=PM1605856872898
 
 # ACDB
