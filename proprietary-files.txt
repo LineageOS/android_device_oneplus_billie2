@@ -1,5 +1,5 @@
 ## All property files from this list, unless pinned and noted otherwise,
-## are from OnePlus Nord N100 (11.0.14.BE81AA). OTAs to extract from can be found here:
+## are from OnePlus Nord N100 (11.0.15.BE81AA). OTAs to extract from can be found here:
 ## https://www.oneplus.com/support/softwareupgrade/details?code=PM1605856872898
 
 # ACDB
@@ -571,6 +571,7 @@ vendor/lib64/libqcc_file_agent.so
 vendor/lib64/libqdma_file_agent.so
 vendor/lib64/libslimclient.so
 vendor/lib64/libxtadapter.so
+vendor/lib64/vendor.qti.hardware.cacert@1.0.so
 vendor/lib64/vendor.qti.gnss@1.0.so
 vendor/lib64/vendor.qti.gnss@1.1.so
 vendor/lib64/vendor.qti.gnss@1.2.so

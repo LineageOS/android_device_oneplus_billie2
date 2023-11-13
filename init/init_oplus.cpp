@@ -12,9 +12,9 @@
 using android::base::GetProperty;
 
 constexpr const char* TMO_BUILD_DESCRIPTION = "OnePlusN100TMO-user 11   release-keys";
-constexpr const char* TMO_BUILD_FINGERPRINT = "OnePlus/OnePlusN100TMO/OnePlusN100TMO:11/RKQ1.201217.002/2308011454:user/release-keys";
+constexpr const char* TMO_BUILD_FINGERPRINT = "OnePlus/OnePlusN100TMO/OnePlusN100TMO:11/RKQ1.201217.002/2310131958:user/release-keys";
 constexpr const char* METRO_BUILD_DESCRIPTION = "OnePlusN100METRO-user 11   release-keys";
-constexpr const char* METRO_BUILD_FINGERPRINT = "OnePlus/OnePlusN100METRO/OnePlusN100METRO:11/RKQ1.201217.002/2308011137:user/release-keys";
+constexpr const char* METRO_BUILD_FINGERPRINT = "OnePlus/OnePlusN100METRO/OnePlusN100METRO:11/RKQ1.201217.002/2310091801:user/release-keys";
 
 constexpr const char* RO_PROP_SOURCES[] = {
     nullptr,
