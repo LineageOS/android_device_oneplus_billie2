@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7d78fc4a_2153cfd4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 18745
+      },
+      "writtenOn": "2024-01-26T04:05:48Z",
+      "side": 1,
+      "message": "Camera problem is finally fixed",
+      "revId": "8bb23f0e8d14a9efaf0867dd0f96309e8fed32f4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
