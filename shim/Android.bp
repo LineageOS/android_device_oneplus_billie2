@@ -1,0 +1,16 @@
+//
+// Copyright (C) 2024 The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+cc_library {
+    name: "libdisplayconfig_shim",
+    shared_libs: [
+        "libutils",
+        "vendor.display.config@2.0",
+    ],
+    srcs: [
+        "DisplayConfig.cpp",
+    ],
+    vendor: true
+}

@@ -429,6 +429,10 @@ PRODUCT_PACKAGES += \
     libdumpstateutil.vendor:64 \
     libsensorndkbridge
 
+# Shims
+PRODUCT_PACKAGES += \
+    libdisplayconfig_shim
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
