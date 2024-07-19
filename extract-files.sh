@@ -71,6 +71,10 @@ function blob_fixup() {
         odm/lib64/libCOppLceTonemapAPI.so|odm/lib64/libaps_frame_registration.so)
             "${PATCHELF}" --replace-needed "libstdc++.so" "libstdc++_vendor.so" "${2}"
             ;;
+        vendor/lib64/libcamximageformatutils.so)
+            "${PATCHELF}" --replace-needed "vendor.display.config@1.0.so" "vendor.display.config@2.0.so" "${2}"
+            grep -q libdisplayconfig_shim.so "${2}" || "${PATCHELF}" --add-needed libdisplayconfig_shim.so "${2}"
+            ;;
     esac
 }
 
