@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a7266bb4_263a069d",
+        "filename": "device.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-07-31T15:24:01Z",
+      "side": 1,
+      "message": "BOARD_API_LEVEL breaks build on qpr3, doesn\u0027t it?",
+      "revId": "31eed766fb222f96bed708369ebd95036add99b0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
