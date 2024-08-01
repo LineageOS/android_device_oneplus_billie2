@@ -16,6 +16,24 @@
       "message": "BOARD_API_LEVEL breaks build on qpr3, doesn\u0027t it?",
       "revId": "31eed766fb222f96bed708369ebd95036add99b0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "014e3f9d_b68056ee",
+        "filename": "device.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 18745
+      },
+      "writtenOn": "2024-08-01T14:25:06Z",
+      "side": 1,
+      "message": "Ah. I forgot about that. Thanks for the heads up.",
+      "parentUuid": "a7266bb4_263a069d",
+      "revId": "31eed766fb222f96bed708369ebd95036add99b0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
