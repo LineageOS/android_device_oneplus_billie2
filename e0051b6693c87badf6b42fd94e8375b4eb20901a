@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4246704e_e51e4b77",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 18745
+      },
+      "writtenOn": "2024-08-05T13:32:03Z",
+      "side": 1,
+      "message": "Preview is fine now, but images are still being saved with swapped colors. Will investigate.",
+      "revId": "e0051b6693c87badf6b42fd94e8375b4eb20901a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
