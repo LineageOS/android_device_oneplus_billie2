@@ -16,6 +16,24 @@
       "message": "`hardware/lineage/compat`?",
       "revId": "e8978950b89ac69ee6348087b8c9a09b2aaa1809",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fcc7ad76_2655cd16",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 18745
+      },
+      "writtenOn": "2024-08-09T15:39:48Z",
+      "side": 1,
+      "message": "done https://review.lineageos.org/c/LineageOS/android_hardware_lineage_compat/+/399421",
+      "parentUuid": "1b2887b9_d85681bc",
+      "revId": "e8978950b89ac69ee6348087b8c9a09b2aaa1809",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
