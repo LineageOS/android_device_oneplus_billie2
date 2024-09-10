@@ -25,6 +25,8 @@ blob_fixups: blob_fixups_user_type = {
         .add_needed('libcamera_metadata_shim.so'),
     'vendor/lib64/hw/fingerprint.default.so': blob_fixup()
         .binary_regex_replace(b'fingerprint.egis.et', b'fingerprint\x00\x00\x00\x00\x00\x00\x00\x00'),
+    ('vendor/lib64/mediadrm/libwvdrmengine.so', 'vendor/lib64/libwvhidl.so'): blob_fixup()
+        .add_needed('libcrypto_shim.so'),
     'vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so': blob_fixup()
         .sig_replace('27 0B 00 94', '1F 20 03 D5'),
 }  # fmt: skip
