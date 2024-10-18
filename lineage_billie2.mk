@@ -33,8 +33,9 @@ PRODUCT_MODEL := BE2011
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="OnePlusN100-user 11   release-keys" \
-    TARGET_DEVICE=OnePlusN100 \
-    TARGET_PRODUCT=OnePlusN100
-
-BUILD_FINGERPRINT := OnePlus/OnePlusN100/OnePlusN100:11/RKQ1.201217.002/2310091801:user/release-keys
+    BuildDesc="OnePlusN100-user 11   release-keys" \
+    BuildFingerprint=OnePlus/OnePlusN100/OnePlusN100:11/RKQ1.201217.002/2310091801:user/release-keys \
+    DeviceName=OnePlusN100 \
+    DeviceProduct=OnePlusN100 \
+    SystemDevice=OnePlusN100 \
+    SystemName=OnePlusN100
