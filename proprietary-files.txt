@@ -372,7 +372,7 @@ vendor/lib/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
 vendor/lib64/libhdr_tm.so
 
 # Display (HWC)
-vendor/bin/hw/vendor.qti.hardware.display.composer-service;DISABLE_CHECKELF;MAKE_COPY_RULE;MODULE_SUFFIX=_vendor
+vendor/bin/hw/vendor.qti.hardware.display.composer-service;MAKE_COPY_RULE;MODULE_SUFFIX=_vendor
 vendor/lib64/libdisplayconfig.qti.so
 vendor/lib64/libsdmcore.so
 vendor/lib64/libsdmutils.so
