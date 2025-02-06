@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018-2022 The LineageOS Project
+# Copyright (C) 2018-2025 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -335,7 +335,7 @@ PRODUCT_PACKAGES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
-    android.hardware.sensors@2.0-service.multihal
+    android.hardware.sensors-service.multihal
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
