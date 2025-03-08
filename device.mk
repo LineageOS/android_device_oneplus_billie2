@@ -280,6 +280,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
+    android.hardware.biometrics.fingerprint@2.1-service.billie2 \
     vendor.oneplus.fingerprint.extension@1.0.vendor
 
 # Gatekeeper
