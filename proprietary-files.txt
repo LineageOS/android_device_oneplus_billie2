@@ -461,7 +461,7 @@ vendor/lib64/vendor.qti.esepowermanager@1.0.so
 vendor/lib64/vendor.qti.esepowermanager@1.1.so
 
 # Fingerprint
-vendor/lib64/hw/fingerprint.egis.et.default.so
+vendor/lib64/hw/fingerprint.egis.et.default.so:vendor/lib64/hw/fingerprint.default.so;FIX_SONAME
 vendor/lib64/fp_hal_extension.so
 vendor/lib64/libRbsFlow.so
 vendor/lib64/libets_teeclient_v2.so

@@ -80,6 +80,10 @@ function blob_fixup() {
             [ "$2" = "" ] && return 0
             "${PATCHELF}" --replace-needed "libstdc++.so" "libstdc++_vendor.so" "${2}"
             ;;
+        vendor/lib64/hw/fingerprint.default.so)
+            [ "$2" = "" ] && return 0
+            sed -i "s/fingerprint.egis.et/fingerprint\x00\x00\x00\x00\x00\x00\x00\x00/" "{$2}"
+            ;;
         *)
             return 1
             ;;
