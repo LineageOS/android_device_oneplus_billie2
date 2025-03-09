@@ -80,6 +80,10 @@ function blob_fixup() {
             [ "$2" = "" ] && return 0
             "${PATCHELF}" --replace-needed "libstdc++.so" "libstdc++_vendor.so" "${2}"
             ;;
+        vendor/lib64/hw/fingerprint.default.so)
+            [ "$2" = "" ] && return 0
+            "${PATCHELF}" --set-soname "fingerprint.default.so" "${2}"
+            ;;
         *)
             return 1
             ;;
