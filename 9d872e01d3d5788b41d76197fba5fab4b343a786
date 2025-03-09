@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5c61b106_03804b0a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28798
+      },
+      "writtenOn": "2025-03-09T00:58:17Z",
+      "side": 1,
+      "message": "I was thinking if maybe we can get this impl in hardware_oneplus?\n\nTagging @priv.luk@gmail.com for opinion",
+      "revId": "9d872e01d3d5788b41d76197fba5fab4b343a786",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
