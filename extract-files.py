@@ -54,8 +54,6 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('libstdc++.so', 'libstdc++_vendor.so'),
     'system_ext/lib/libwfdmmsrc_system.so': blob_fixup()
         .add_needed('libgui_shim.so'),
-    ('system_ext/lib/libwfddisplayconfig.so', 'system_ext/lib64/libwfddisplayconfig.so'): blob_fixup()
-        .replace_needed('libdisplayconfig.qti.so', 'libdisplayconfig.system.qti.so'),
     'system_ext/lib64/libwfdnative.so': blob_fixup()
         .replace_needed('android.hidl.base@1.0.so', 'libhidlbase.so')
         .add_needed('libbinder_shim.so')
